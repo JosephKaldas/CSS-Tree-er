@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
     <meta charset="utf-8">
     <title>Tree-er</title>
-    <!-- ************************** -->
-    <!-- add link to bootstrap here -->
-    <!-- ************************** -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="main.css">
+  
+    
   </head>
+ 
   <body>
 
-    <!-- ************************** -->
-    <!-- Bonus! Use documentation to style the nav -->
-    <!-- ************************** -->
-
+  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" >Tree-er</a>
@@ -51,9 +47,9 @@
       </div>
     </nav>
 
-    <!-- ************************** -->
-    <!-- Set class container-fluid on div for hero/jumbo image -->
-    <!-- ************************** -->
+    <div class="container-fluid" id="hero">
+      
+    
 
     <div class="container-fluid" id="hero">
       <img src="../assets/geran-de-klerk-qzgN45hseN0-unsplash.jpg" class="img-fluid" alt="forest view">
@@ -63,22 +59,10 @@
         <a href="https://unsplash.com/s/photos/forrest?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
     </div>
 
-      <!-- ************************** -->
-      <!-- Set class container on div for On Sale Now Section -->
-      <!-- ************************** -->
-
     <div class="container">
       <h3 class="display-4">On Sale Now</h3>
 
-      <!-- ************************** -->
-      <!-- Begin row of cards -->
-      <!-- ************************** -->
       <div class="row align-items-stretch">
-
-        <!-- ************************** -->
-        <!-- First card -->
-        <!-- ************************** -->
-
         <div class="card col" style="width: 18rem;">
           <img src="../assets/rob-mulally-oacHEtIlXsA-unsplash.jpg" class="card-img-top" alt="oak">
           <div class="card-body">
@@ -91,11 +75,6 @@
             <a href="#" class="btn btn-primary">Gift it</a>
           </div>
         </div>
-
-        <!-- ************************** -->
-        <!-- Second card -->
-        <!-- ************************** -->
-
         <div class="card col" style="width: 18rem;">
           <img src="../assets/fernando-de-la-cruz-GEqfe3zYILk-unsplash.jpg" class="card-img-top" alt="maple">
           <div class="card-body">
@@ -108,10 +87,6 @@
             <a href="#" class="btn btn-primary">Gift it</a>
           </div>
         </div>
-
-        <!-- ************************** -->
-        <!-- Third card -->
-        <!-- ************************** -->
 
         <div class="card col" style="width: 18rem;">
           <img src="../assets/alex-B0Kj_2ZG2O8-unsplash.jpg" class="card-img-top" alt="willow">
@@ -127,11 +102,6 @@
         </div>
 
       </div>
-
-      <!-- ************************** -->
-      <!-- Best Sellers table -->
-      <!-- ************************** -->
-
       <h3 class="display-5">Best Sellers</h3>
 
       <table class="table table-striped table-hover text-center">
@@ -177,18 +147,9 @@
         </tbody>
       </table>
 
-      <!-- ************************** -->
-      <!-- Newsletter Form -->
-      <!-- ************************** -->
-
       <div class="container">
         <h4>Sign up for our newsletter</h4>
         <form>
-
-          <!-- ************************** -->
-          <!-- Text inputs -->
-          <!-- ************************** -->
-
           <div class="mb-3">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
@@ -208,9 +169,6 @@
             <label class="form-check-label" for="exampleCheck1">Send me coupons</label>
           </div>
 
-          <!-- ************************** -->
-          <!-- Select/Options/dropdown menu -->
-          <!-- ************************** -->
 
           <p>Select frequency of newsletters</p>
           <select class="form-select" aria-label="Default weekly">
@@ -220,10 +178,6 @@
             <option value="3">Monthly</option>
             <option value="3">Annually</option>
           </select>
-
-          <!-- ************************** -->
-          <!-- Checkbox 1 (make into a switch w. Bootstrap) -->
-          <!-- ************************** -->
 
           <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>

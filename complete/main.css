@@ -1,6 +1,7 @@
 #hero {
   position: relative;
   text-align: center;
+  width:100%;
 }
 
 #hero h2 {
@@ -9,4 +10,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+.container-fluid  {
+  
+}
+h3 {
+  font-size:50px;
+  color:red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
